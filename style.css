@@ -123,6 +123,10 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
+
+* {
+    box-sizing: border-box;
+}
 /* main */
 
 body {
@@ -130,7 +134,7 @@ body {
 }
 
 main {
-    padding: 40px 0 0 40px;
+    padding: 10px 0 0 40px;
 }
 
 .header {
@@ -158,6 +162,11 @@ main {
 
 .question {
     margin: 35px 0;
+}
+
+.question img {
+    max-width: 100%;
+    width: auto;
 }
 
 .question__header {
@@ -232,4 +241,25 @@ main {
 
 .asterisk {
     color: #d93025;
+}
+
+.banner {
+    min-width: 280px;
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+}
+
+@media (max-width:767px) {
+    main {
+        padding: 0 10px 0 10px;
+    }
+
+    .header {
+        flex-direction: column;
+    }
+
+    .header__delimiter {
+        opacity: 0;
+    }
 }
