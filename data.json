@@ -1,0 +1,114 @@
+{
+    "examId": "1T1DncltTCDFwYjRPFV7MDJYnu_DxpHXKji48y2JoNOE",
+    "questions": [
+        {
+            "questionId": "1",
+            "title": "Which of the following are computer physical component? (select 2 options)",
+            "answers": [
+                "A) Graphic card",
+                "B) Mother Board",
+                "C) Windows 10",
+                "D) Antivirus"
+            ],
+            "multiple": true
+        },
+        {
+            "questionId": "2",
+            "title": "Which of the following is responsible for computations? (Select 1 option)",
+            "answers": ["Mouse", "CPU", "HDD", "Monitor"]
+        },
+        {
+            "questionId": "3",
+            "title": "Which of the following allows commands one to go from \"home\" to Documents directory?",
+            "answers": [
+                "A) change director",
+                "B) cd",
+                "C) dc",
+                "D) none of the above"
+            ],
+            "multiple": true
+        },
+        {
+            "questionId": "4",
+            "title": "Which of the following is a Programming language?",
+            "answers": [
+                "A) Java",
+                "B) Python",
+                "C) Javascript",
+                "D) Banana Code"
+            ],
+            "multiple": true
+        },
+        {
+            "questionId": "5",
+            "title": "CPU stands for?",
+            "answers": [
+                "A) Computer Processing Unit",
+                "B) Central Processing Unit",
+                "C) Computer Protection Unit",
+                "D) Central Processing Upload"
+            ]
+        },
+        {
+            "questionId": "6",
+            "title": "RAM stands for?",
+            "answers": [
+                "A) Random-Access Memory",
+                "B) Random-Access Modifier",
+                "C) Random-Ascending Memory",
+                "D) Random-Ascending Modifier"
+            ]
+        },
+        {
+            "questionId": "7",
+            "title": "ROM stands for?",
+            "answers": [
+                "A) Read One Memory",
+                "B) Ride On Memory",
+                "C) Read Only Memory",
+                "D) Ride Once Memory"
+            ]
+        },
+        {
+            "questionId": "8",
+            "title": "OOP stands for Object to Object Processing",
+            "answers": ["True", "False"]
+        },
+        {
+            "questionId": "9",
+            "title": "HDD stands for?",
+            "answers": [
+                "A) Hard Disk Desktop",
+                "B) Hard Drive Desktop",
+                "C) Hard Disk Drive",
+                "D) Home Directory Disk"
+            ]
+        },
+        {
+            "questionId": "10",
+            "title": "In Python what will the value of b be in the following code snippet: a = 10 % 3?"
+        },
+        {
+            "questionId": "11",
+            "title": "In Python what will the following snippet print? print(\"Cool\" if 1 > 0 else \"Not Cool\")?"
+        },
+        {
+            "questionId": "12",
+			"title": "In Python what will the following snippet print?",
+			"image": "/images/python-test/12.png"
+        },
+        {
+            "questionId": "13",
+            "title": "In Python what with the following code snippet print? print(1 + 2 ** 3 * 4)"
+		},
+		{
+            "questionId": "14",
+			"title": "What will the following snippet print?",
+			"image": "/images/python-test/14.png"
+		},
+		{
+            "questionId": "15",
+            "title": "In Python what will the following snippet print? print([1,2,3,4][3])"
+		}
+    ]
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./matter.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+    <title>Python Attitude Test</title>
+</head>
+
+<body>
+    <main>
+        <div class="header">
+            <div class="header__text">Python Attitude Test</div>
+            <div class="header__delimiter">
+                |
+            </div>
+            <div class="header__timer">
+                Time left:<i id="timer">29:59</i>
+            </div>
+        </div>
+        <p class="legend">
+            Time: 30 minutes
+            <br>
+            This exam is intended to assess your understanding of computing basics and Python fundamentals.
+            <br>
+            Please note a question might have more than one correct answer.
+            <br>
+            You must select all correct answers to be correct in that case.
+            <br>
+            Each question is allocated 2 minutes. Please be conscious of time.
+            <br>
+            We will release your results with a breakdown of your outcome.
+        </p>
+        <section>
+            <form id="form" class="form">
+                <div id="root">
+
+                </div>
+                <div class="controls">
+                    <button type="submit" class="controls__submit" id="submit">
+                        <ion-icon name="checkmark-outline"></ion-icon>submit
+                    </button>
+                    <button class="controls__cancel" id="cancel">
+                        <ion-icon name="close-outline"></ion-icon>cancel
+                    </button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <script src="./scripts/script.js"></script>
+    <script src="./scripts/timer.js"></script>
+</body>
+
+</html>
