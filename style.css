@@ -179,7 +179,8 @@ main {
     margin-right: 8px;
 }
 
-.question__answers--item [type="text"] {
+.question__answers--item [type="text"],
+.question__answers--item [type="email"] {
     border: none;
     border-bottom: 1px solid #999;
     padding: 6px 0;
