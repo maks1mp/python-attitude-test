@@ -54,7 +54,7 @@ function createGroup(q, type) {
 function wrapHeader(question, answersHTML, index) {
     return `
         <div class="question">
-             <h1 class="question__header">${index}. ${question.title}</h1>
+             <h3 class="question__header">${index}. ${question.title}<sup class="asterisk">*</sup></h3>
              ${
                  question.image
                      ? `

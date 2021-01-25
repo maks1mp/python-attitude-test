@@ -4,7 +4,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./matter.min.css">
     <link rel="stylesheet" href="./style.css">
     <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
     <title>Python Attitude Test</title>
@@ -12,6 +11,7 @@
 
 <body>
     <main>
+        <img src="./images/banner.png" alt="">
         <div class="header">
             <div class="header__text">Python Attitude Test</div>
             <div class="header__delimiter">
@@ -33,11 +33,27 @@
             Each question is allocated 2 minutes. Please be conscious of time.
             <br>
             We will release your results with a breakdown of your outcome.
+            <div class="asterisk">
+                <b>
+                    <sup>*</sup> Required
+                </b>
+            </div>
         </p>
         <section>
             <form id="form" class="form">
+                <div class="question">
+                    <h3 class="question__header">Email<sup class="asterisk">*</sup></h3>
+                    <div class="question__answers">
+                        <div class="question__answers--item">
+                            <label>
+                                <input type="text" required name="email" placeholder="Email" />
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <br/>
                 <div id="root">
-
+                    <!-- JS generated content goes here -->
                 </div>
                 <div class="controls">
                     <button type="submit" class="controls__submit" id="submit">

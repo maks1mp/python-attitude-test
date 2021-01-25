@@ -95,7 +95,7 @@
         {
             "questionId": "12",
 			"title": "In Python what will the following snippet print?",
-			"image": "/images/python-test/12.png"
+			"image": "./images/python-test/12.png"
         },
         {
             "questionId": "13",
@@ -104,7 +104,7 @@
 		{
             "questionId": "14",
 			"title": "What will the following snippet print?",
-			"image": "/images/python-test/14.png"
+			"image": "./images/python-test/14.png"
 		},
 		{
             "questionId": "15",
